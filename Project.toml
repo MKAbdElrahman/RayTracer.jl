@@ -3,6 +3,9 @@ uuid = "0921820f-ef62-4682-a38b-856f410923bd"
 authors = ["Mohamed Kamal AbdElrahman"]
 version = "0.1.0"
 
+[deps]
+Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
+
 [compat]
 julia = "1.6"
 

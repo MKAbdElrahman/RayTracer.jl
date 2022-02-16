@@ -1,6 +1,6 @@
 using RayTracer
 using Test
 
-@testset "RayTracer.jl" begin
-    # Write your tests here.
+@testset "RayTracer" begin
+include("PointOrVector.jl")
 end
