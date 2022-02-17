@@ -12,3 +12,7 @@ end
     @test Color(0,1,1) * 5 == Color(0,5,5)
     @test 5 * Color(0,1,1) == Color(0,5,5)
 end
+
+@testset "Zero Color" begin
+    @test zero(Color{Int}) == Color(0,0,0)
+end

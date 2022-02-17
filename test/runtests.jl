@@ -5,4 +5,5 @@ using Test
 include("Vec.jl")
 include("Point.jl")
 include("Color.jl")
+include("Canvas.jl")
 end
