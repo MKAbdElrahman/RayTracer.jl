@@ -1,11 +1,13 @@
 module RayTracer
 
-export  point , vector,dot, magnitude, cross,normalize
+export  Point , Vec , Vec1 , Vec2 , Vec3
+export Float
 
-using Parameters
-
+using Parameters , StaticArrays
 
 const Float = Float64
-include("PointOrVector.jl")
+
+include("Vec.jl")
+include("Point.jl")
 
 end

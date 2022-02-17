@@ -1,6 +1,7 @@
-using RayTracer
+using RayTracer, StaticArrays
 using Test
 
 @testset "RayTracer" begin
-include("PointOrVector.jl")
+include("Vec.jl")
+include("Point.jl")
 end
